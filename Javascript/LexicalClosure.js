@@ -1,0 +1,26 @@
+function outer(){
+    let user = "jelo";
+    function inner(){
+        console.log(user)
+    }
+
+    inner()
+}
+
+outer()
+
+
+//  Closure
+
+function makeFunc() {
+    const name = "Mozilla";
+    function displayName() {
+      console.log(name);
+    }
+    return displayName;
+  }
+  
+  const myFunc = makeFunc();
+  myFunc();
+
+  

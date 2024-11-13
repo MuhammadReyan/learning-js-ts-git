@@ -1,0 +1,3 @@
+
+////// Namespace 
+In TypeScript, a namespace is a way to organize code into logical groups and avoid naming collisions between identifiers. Namespaces provide a way to group related code into a single namespace or module so that we can manage, reuse and maintain our code easily.
